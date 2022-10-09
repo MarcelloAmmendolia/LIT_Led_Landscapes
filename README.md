@@ -13,13 +13,14 @@ https://github.com/FastLED/FastLED/tree/FastLED3.1,  <br/> https://github.com/Pa
 <br/> 
 --> GENERAL PROCESS:
 
+<img width="937" alt="image" src="https://user-images.githubusercontent.com/82780678/194755370-842f6852-2d1a-4c1a-9d46-3fdaee707717.png">
+
+
 1) Touch designer instance that manages the UI and animations created. This sends the animation data pre mapped in a table (3 rows, r/g/b, the number of columns equal the number of addressable led’s), out through a Touch Out DAT.
 2) Second Touch designer instance receives the table dat, and focuses solely on formatting that table data into several compact byte strings that are sent using python and the serial.sendBytes() command.
 [i]A side note here, I have to split the led bytes into chunks or packets of 255 or less due to a built in limit that sendBytes has. I’ve successfully sent entire byte strings using processing and it’s considerably faster (35-45 fps)
 3) Byte string is received over serial comport by the teensy, at this point it’s premapped and each 3 values are applied to the led’s 1:1.
 <br/> 
-<img width="963" alt="MAKING OF - 3" src="https://user-images.githubusercontent.com/82780678/194755330-7e936cb7-5041-418f-b219-a4561bc6da74.png">
-
 
 
 Many thanks to Lucas Morgan, http://www.enviral-design.com/
