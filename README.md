@@ -23,7 +23,7 @@ https://github.com/FastLED/FastLED/tree/FastLED3.1,  <br/> https://github.com/Pa
 1) Touch designer instance that manages the UI and animations created. This sends the animation data pre mapped in a table (3 rows, r/g/b, the number of columns equal the number of addressable led’s), out through a Touch Out DAT.
 2) Second Touch designer instance receives the table dat, and focuses solely on formatting that table data into several compact byte strings that are sent using python and the serial.sendBytes() command.
 <br/> 
-<img width="963" alt="CJSIDFISJD" src="https://user-images.githubusercontent.com/82780678/194755649-00331d17-cd0e-44a1-ad6b-d28adf100ee0.png">
+<img width="937" alt="KADOIJAWEOIFJNASOIENFOèIAWINF" src="https://user-images.githubusercontent.com/82780678/194755712-f129ff6c-bf4f-406d-a0de-e6034ca50a4d.png">
 
 
 
