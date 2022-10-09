@@ -30,7 +30,9 @@ My setup:
 
 
 Many thanks to Lucas Morgan, http://www.enviral-design.com/
+
 Dependancy Libraries:
-https://github.com/FastLED/FastLED/tree/FastLED3.1 14
+
+https://github.com/FastLED/FastLED/tree/FastLED3.1 14, 
 https://github.com/PaulStoffregen/OctoWS2811 18
 
