@@ -1,9 +1,17 @@
-# Led_micro_CTRL
-Led_micro_CTRL is a repository about controlling ws2812b Led strips and arrays using microcontrollers
-like Arduino, ESP and Teensy+.
+Led_landscapes is a repository about 
+This entire project is open sourced.
+
+SEE THE PROJECTS HERE:
 
 
-SETUP:
+
+
+
+
+
+
+
+--> SETUP:
 
 Windows 10 <br/> Teensy 4.1 (arduino based MC with full usb speed serial communication) <br/> Custom pcb <br/> Any ws82-xxx led strip
 
@@ -13,7 +21,7 @@ https://github.com/FastLED/FastLED/tree/FastLED3.1,  <br/> https://github.com/Pa
 
 
 
-PROCESS:
+--> PROCESS:
 
 1) Touch designer instance that manages the UI and animations created. This sends the animation data pre mapped in a table (3 rows, r/g/b, the number of columns equal the number of addressable led’s), out through a Touch Out DAT.
 2) Second Touch designer instance receives the table dat, and focuses solely on formatting that table data into several compact byte strings that are sent using python and the serial.sendBytes() command.
