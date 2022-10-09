@@ -3,7 +3,7 @@ Led_micro_CTRL is a repository about controlling ws2812b Led strips and arrays u
 like Arduino, ESP and Teensy+.
 
 
-HARDWARE:
+SETUP:
 
 Windows 10 <br/> Teensy 4.1 (arduino based MC with full usb speed serial communication) <br/> Custom pcb <br/> Any ws82-xxx led strip
 
