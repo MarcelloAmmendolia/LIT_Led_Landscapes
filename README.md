@@ -4,7 +4,7 @@ Within LED_Landscapes, the light installations can show animations, react to sou
 
 --> GENERAL SETUP:
 
-Windows 10 <br/> Teensy 4.1 (arduino based MC with full usb speed serial communication) <br/> Custom pcb <br/> Any ws82-xxx led strip <br/> Derivative Touchdesigner
+Windows 10 <br/> Teensy 4.1 (arduino based MC with full usb speed serial communication) <br/> Any ws82-xxx led strip <br/> Derivative Touchdesigner
 
 Dependancy Libraries:
 
