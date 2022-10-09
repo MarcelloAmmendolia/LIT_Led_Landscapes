@@ -5,13 +5,7 @@ like Arduino, ESP and Teensy+.
 
 HARDWARE:
 
-Windows 10
-
-Teensy 4.1 (arduino based MC with full usb speed serial communication)
-
-Custom pcb
-
-Any ws82-xxx led strip
+Windows 10 <br/> Teensy 4.1 (arduino based MC with full usb speed serial communication) <br/> Custom pcb <br/> Any ws82-xxx led strip
 
 Dependancy Libraries:
 
