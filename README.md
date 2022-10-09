@@ -1,27 +1,16 @@
-Led_landscapes is a repository about 
-This entire project is open sourced.
+From a technical point of view, the goal of Led_landscapes was to address every pixel of a long LED strip chain, changing color (rgb) and brightness of the pixels with different types of sensors or pre-defined commands. The 
+<br/> 
+<br/> 
+--> GENERAL SETUP:
 
-SEE THE PROJECTS HERE:
-
-
-
-
-
-
-
-
-
---> SETUP:
-
-Windows 10 <br/> Teensy 4.1 (arduino based MC with full usb speed serial communication) <br/> Custom pcb <br/> Any ws82-xxx led strip
+Windows 10 <br/> Teensy 4.1 (arduino based MC with full usb speed serial communication) <br/> Custom pcb <br/> Any ws82-xxx led strip <br/> Derivative Touchdesigner
 
 Dependancy Libraries:
 
 https://github.com/FastLED/FastLED/tree/FastLED3.1,  <br/> https://github.com/PaulStoffregen/OctoWS2811
-
-
-
---> PROCESS:
+<br/> 
+<br/> 
+--> GENERAL PROCESS:
 
 1) Touch designer instance that manages the UI and animations created. This sends the animation data pre mapped in a table (3 rows, r/g/b, the number of columns equal the number of addressable led’s), out through a Touch Out DAT.
 2) Second Touch designer instance receives the table dat, and focuses solely on formatting that table data into several compact byte strings that are sent using python and the serial.sendBytes() command.
