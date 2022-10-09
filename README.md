@@ -15,7 +15,7 @@ Any ws82-xxx led strip
 
 Dependancy Libraries:
 
-https://github.com/FastLED/FastLED/tree/FastLED3.1 //
+https://github.com/FastLED/FastLED/tree/FastLED3.1 \\
 https://github.com/PaulStoffregen/OctoWS2811
 
 
