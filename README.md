@@ -17,8 +17,11 @@ Hardware:
 
 
 Windows 10
+
 Teensy 4.1 (arduino based MC with full usb speed serial communication)
+
 Custom pcb
+
 Any ws82-xxx led strip
 
 My setup:
