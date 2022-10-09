@@ -3,15 +3,7 @@ Led_micro_CTRL is a repository about controlling ws2812b Led strips and arrays u
 like Arduino, ESP and Teensy+.
 
 
-
-
-
-
-// 
-
-
-
-Hardware:
+HARDWARE:
 
 Windows 10
 
@@ -22,7 +14,8 @@ Custom pcb
 Any ws82-xxx led strip
 
 
-My setup:
+PROCESS:
+
 1) Touch designer instance that manages the UI and animations created. This sends the animation data pre mapped in a table (3 rows, r/g/b, the number of columns equal the number of addressable led’s), out through a Touch Out DAT.
 2) Second Touch designer instance receives the table dat, and focuses solely on formatting that table data into several compact byte strings that are sent using python and the serial.sendBytes() command.
 [i]A side note here, I have to split the led bytes into chunks or packets of 255 or less due to a built in limit that sendBytes has. I’ve successfully sent entire byte strings using processing and it’s considerably faster (35-45 fps)
