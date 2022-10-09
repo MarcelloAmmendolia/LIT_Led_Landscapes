@@ -12,6 +12,10 @@ like Arduino, ESP and Teensy+.
 
 
 Hardware:
+
+
+
+
 Windows 10
 Teensy 4.1 (arduino based MC with full usb speed serial communication)
 Custom pcb
