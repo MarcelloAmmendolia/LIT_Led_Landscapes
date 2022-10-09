@@ -1,6 +1,7 @@
-From a technical point of view, the goal of Led_landscapes was to address every pixel of a long LED strip chain, changing color (rgb) and brightness of the pixels with different types of sensors or pre-defined commands. The 
+Within LED_Landscapes, the light installations can show animations, react to sound, person movement, react to data coming from external API's and from many other sources. From a technical point of view, the goal of Led_landscapes was to create a system able to address every pixel of an hypotetic long LED strip chain, changing color (rgb) and brightness of the pixels with different types of sensors or pre-defined commands, leaving it open for future applications that may require a different number of LEDs, a different configuration, or different interaction elements.
 <br/> 
 <br/> 
+
 --> GENERAL SETUP:
 
 Windows 10 <br/> Teensy 4.1 (arduino based MC with full usb speed serial communication) <br/> Custom pcb <br/> Any ws82-xxx led strip <br/> Derivative Touchdesigner
