@@ -24,10 +24,7 @@ https://github.com/FastLED/FastLED/tree/FastLED3.1,  <br/> https://github.com/Pa
 <img width="937" alt="MAKING OF - 5" src="https://user-images.githubusercontent.com/82780678/194757441-7ba9e43a-99e1-4cd1-ad42-8006d06f6af1.png">
 <br/>
 <br/>
-<img width="937" alt="img n 1" src="https://user-images.githubusercontent.com/82780678/194757852-05efc170-7267-4a77-96f3-6c273ee303fb.png">
-<img width="937" alt="img n 2" src="https://user-images.githubusercontent.com/82780678/194757854-8b70c52b-5db8-414c-88e3-f50a06450539.png">
-
-
+<img width="937" alt="big immagine" src="https://user-images.githubusercontent.com/82780678/194757967-00fdcee2-5d91-4e46-ae92-bfdf3a3f2f87.png">
 
 
 
