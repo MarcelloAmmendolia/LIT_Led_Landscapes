@@ -17,9 +17,8 @@ https://github.com/FastLED/FastLED/tree/FastLED3.1,  <br/> https://github.com/Pa
 2) Second Touch designer instance receives the table dat, and focuses solely on formatting that table data into several compact byte strings that are sent using python and the serial.sendBytes() command.
 [i]A side note here, I have to split the led bytes into chunks or packets of 255 or less due to a built in limit that sendBytes has. I’ve successfully sent entire byte strings using processing and it’s considerably faster (35-45 fps)
 3) Byte string is received over serial comport by the teensy, at this point it’s premapped and each 3 values are applied to the led’s 1:1.
-<img width="668" alt="making of- 1" src="https://user-images.githubusercontent.com/82780678/194755135-63a5ce10-edb7-4f3a-8753-0e8bb6892b95.png">
-<img width="887" alt="MAKING OF- 2" src="https://user-images.githubusercontent.com/82780678/194755103-5baf4dae-91f5-4c04-80ac-c617e8ad5461.png">
-
+<br/> 
+<img width="963" alt="MAKING OF - 3" src="https://user-images.githubusercontent.com/82780678/194755330-7e936cb7-5041-418f-b219-a4561bc6da74.png">
 
 
 
