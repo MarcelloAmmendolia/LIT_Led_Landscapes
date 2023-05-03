@@ -1,3 +1,22 @@
+The sistem uses FastLed library uploaded to a microcontroller.  
+The microcontroller must be a Teensy 4.0 / 4.1 for reasons linked to its internal memory and RAM wich is way better than Arduino.  
+Teensy can hold thousands of led while an Arduino can handle only few hundreds.  
+
+
+The system will have three main modes:   
+- Computer connected slave device  
+- Preset modes  
+- Audioreactive mode  
+
+
+Audioreactivity
+
+
+
+
+
+
+
 Within LED_Landscapes, the light installations can show animations, react to sound, person movement, react to data coming from external API's and from many other sources. From a technical point of view, the goal of Led_landscapes was to create a system able to address every pixel of an hypotetic long LED strip chain, changing color (rgb) and brightness of the pixels with different types of sensors or pre-defined commands, leaving it open for future applications that may require a different number of LEDs, a different configuration, or different interaction elements.
 <br/> 
 <br/> 
